@@ -1,0 +1,130 @@
+.box-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex:1 1 1rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    width: calc(10%);
+    margin: 13px;
+    padding: 60px 100px 0px 100px;
+    color: white;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 7px rgba(0, 0, 0, 0.1); 
+}
+
+.box:first-child {
+    background-color: #17A2B8;
+}
+
+.box:nth-child(2) {
+    background-color: #007BFF;
+}
+
+.box:nth-child(3) {
+    background-color: #28A745;
+}
+
+.box:nth-child(4) {
+    background-color: #DC3545;
+}
+
+.linkto {
+    padding: 20px 100px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* เลือกลิงก์แต่ละตัวตามลำดับ */
+.box:nth-child(1) .linkto {
+    background-color: #148b9da1;
+}
+
+.box:nth-child(1) .linkto:hover {
+    background-color: #148b9d;
+}
+
+.box:nth-child(2) .linkto {
+    background-color: #0069d971;
+}
+
+.box:nth-child(2) .linkto:hover {
+    background-color: #0069D9;
+}
+
+.box:nth-child(3) .linkto {
+    background-color: #228e3b80;
+}
+
+.box:nth-child(3) .linkto:hover {
+    background-color: #228E3B;
+}
+
+.box:nth-child(4) .linkto {
+    background-color: #bb2d3bd2;
+}
+
+.box:nth-child(4) .linkto:hover {
+    background-color: #ce2636;
+}
+
+.content1{
+    width: 6rem;
+}
+
+.box-d2 {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.box2 {
+    flex: 1 1 1rem;
+    display: flex;
+    align-items: center; /* จัดให้อยู่กึ่งกลางตามแนวแกน Y */
+    justify-content: space-between; /* จัดให้ส่วนหน้าตัวอักษรอยู่ด้านซ้ายและไอคอนอยู่ด้านขวา */
+    font-size: 20px;
+    width: 200px; /* ปรับขนาดตามความต้องการ */
+    margin: 15px;
+    padding: 30px;
+    color: black;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 7px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.content2 {
+    padding-left: 10px; /* ขยับตัวอักษรไปทางซ้ายเล็กน้อย */
+}
+
+.content3 {
+
+    font-size: medium;
+    color: red;
+}
+
+.box2:hover{
+    transform: scale(1.1); /* ขยายขนาดขององค์ประกอบเมื่อโฮเวอร์ */
+    transition: transform 0.3s ease; /* เพิ่ม transition เพื่อทำให้เปลี่ยนขนาดอย่างนุ่มนวล */
+}
+
+ .box-d3{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 7px rgba(0, 0, 0, 0.1); 
+} 

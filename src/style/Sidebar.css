@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Anuphan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
+.wrapper {
+    display: flex;
+  
+  }
+  hr{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid ;
+    border-color: #696D71;
+  }
+  
+  .sidebar {
+    flex: 1; /* กำหนดความกว้างของ sidebar */
+    background-color: #1b1d20;
+    padding: 1rem;
+    height: 100%;
+  }
+  
+  .sidebar a {
+    color: #b4b6b8;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .sidebar a:hover{
+    border-radius: 10px;
+    background-color: #696D71;
+  }
+ 
+  span{
+    color: #696D71;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* เพิ่ม CSS เพื่อให้ sidebar ยาวลงมาเต็มฝั่งซ้าย */
+
+  
+  .sidebar {
+    flex: 1; /* ทำให้ sidebar ยาวลงมาเต็มฝั่งซ้าย */
+    overflow-y: auto; /* เพิ่ม scrollbar ในกรณีที่ sidebar ยาวเกินกว่าความสูงของ viewport */
+  }
+  

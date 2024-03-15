@@ -1,0 +1,85 @@
+.con-manager{
+    
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 1px 2px 5px 7px rgba(0, 0, 0, 0.1); 
+}
+.main-top{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn-adduser{
+    background-color: #007BFF;
+    font-size: 13px;
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+}
+.btn-adduser:hover{
+    background-color: #0069D9;
+}
+.table{
+    margin: 10px;
+}
+#users {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #users td, #users th {
+    border-top: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  #users tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #users tr:hover {background-color: #ddd;}
+  
+  #users th {
+    border-top: 1px solid #ddd;
+    border-bottom: 4px solid #ddd ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    color: black;
+  }
+  .btn-edit{
+    border-style: none;
+    background-color:#E0A800 ;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  .btn-delete{
+    border-style: none;
+    background-color:#DC3545;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .btn-info{
+    border-style: none;
+    background-color:#148b9d;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  .btn-info:hover{
+    background-color:#087080;
+  }
+  .btn-delete:hover{
+    background-color:#911421;
+  }
+  .btn-edit:hover{
+    background-color:#b98e0c;
+  }
